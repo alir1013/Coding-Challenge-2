@@ -10,7 +10,7 @@ console.log(`The bill was $${x}, the tip was $${y}, and total $${z}`);
 function calculateTip (bill) {
     return bill > 100 ? bill * 0.15: bill * 0.20; // Calculating tip based on the given rule
 }
-//Test
+//Function Test
 let bill= 100;
 let tip= calculateTip (bill);
 let total= bill+tip;
@@ -20,6 +20,8 @@ console.log(`The bill was $${bill}, the tip was $${tip}, and total $${total}`); 
 const bills = [275,40,430,125,555,44]; // Data set 1 and 2
 const tips=bills.map(bills=> calculateTip(bills));
 const totals= bills.reduce((bills) => bills + tips); 
+
+//Task 5:Testing the Data
 console.log ("bills:", bills); //Output:275,40,430,125,555,44
 console.log("tips:",tips); //Output:41.25,6, 64.5, 18.75, 111, 6.6
 console.log("totals:",totals); //Output:316.25,46, 494.5, 143.75, 666, 50.6
