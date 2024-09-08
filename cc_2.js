@@ -10,7 +10,8 @@ console.log(`The bill was $${bill}, the tip was $${tip}, and total $${total}`);
 function calculateTip (bill) {
     return bill > 100 ? bill * 0.15: bill * 0.20; // Calculating tip based on the given rule
 }
-var bill= 100;
+
+const bill= 100;
 let tip = calculateTip (bill);
 let total = bill+tip;
 console.log(`The bill was $${bill}, the tip was $${tip}, and total $${total}`); //Output: $115
