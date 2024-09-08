@@ -1,10 +1,10 @@
 //Task 1: Calcualting the Tip
 let x = 75; //Bill Amount
-let tip = 50<= x <= 300 ? x * 0.20: x * 0.15 //calculating tip based on different conditions // Output:$11.25
+let y = 50<= x <= 300 ? x * 0.20: x * 0.15 //calculating tip based on different conditions // Output:$11.25
 
 //Task 2: Output Details
-let total = x + tip;
-console.log(`The bill was $${x}, the tip was $${tip}, and total $${total}`);
+let z = x + y;
+console.log(`The bill was $${x}, the tip was $${y}, and total $${z}`);
 
 //Task 3: Creating a function 
 function calculateTip (bill) {
